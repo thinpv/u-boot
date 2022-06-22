@@ -9,8 +9,8 @@ CONFIG_DRAM_ZQ=0
 # CONFIG_VIDEO_SUNXI is not set
 CONFIG_DEFAULT_DEVICE_TREE="suniv-f1c100s-viduino-uno"
 CONFIG_BOOTDELAY=0
-# CONFIG_USE_BOOTARGS=y
-# CONFIG_BOOTARGS="console=tty1 console=ttyS1,115200 panic=5 rootwait root=/dev/mtdblock3 rw rootfstype=jffs2"
+CONFIG_USE_BOOTARGS=y
+CONFIG_BOOTARGS="console=ttyS1,115200 panic=5 rootwait root=/dev/mtdblock3 rw rootfstype=jffs2"
 CONFIG_SPL=y
 # CONFIG_CMD_FLASH is not set
 # CONFIG_CMD_FPGA is not set
